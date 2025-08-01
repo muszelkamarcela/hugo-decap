@@ -1,0 +1,20 @@
+backend:
+  name: github
+  repo: muszelkamarcela/hugo-decap
+  branch: main
+  auth_type: "oauth"
+  app_id: "Ov23ctUr1ubjUyi83eZ6"
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posty"
+    folder: "content/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tytuł", name: "title", widget: "string" }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Treść", name: "body", widget: "markdown" }
