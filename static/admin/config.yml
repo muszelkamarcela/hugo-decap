@@ -4,7 +4,7 @@ backend:
   branch: main
   auth_type: "oauth"
   app_id: "Ov23ctUr1ubjUyi83eZ6"
-  base_url: https://api.github.com
+  base_url: https://marcinwsieci.ddns.net
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
